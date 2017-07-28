@@ -1,0 +1,20 @@
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/radio/0.2.0/radio.min.js"></script>
+<script src="../src/hotkeys.js"></script>
+
+<script>
+  
+    // capture more key strokes ? 
+   
+    hotKeys({ maxKeysToCapture: 9 });
+    document.write("<p>Press (Ctrl) Control key , then release , then type motorbike</p>")
+  
+
+    radio("hotKeys-motorbike").subscribe(function (e) {
+        alert("brrrrr brrrrr brrrrrrrr");
+    })
+   
+        
+
+
+
+</script>
