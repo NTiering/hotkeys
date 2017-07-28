@@ -1,11 +1,8 @@
 # hotkeys
 supports hotkeys on web pages. Requires radio.js
 
-<script>
-
-   // happy path 
-   
-    
+```javascript
+    // happy path 
     hotKeys();
     
     document.write("<p>Press (Ctrl) Control key , then release , then press b, then press x</p>")
@@ -19,4 +16,4 @@ supports hotkeys on web pages. Requires radio.js
     radio("hotKeys-by").subscribe(function (e) {
         alert("I bet you did Ctrl + b + y");
     })
-</script>
+```
